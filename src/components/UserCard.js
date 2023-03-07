@@ -54,7 +54,7 @@ const UserCard = () => {
             setUser(response.data)
         })
     }, [])
-    
+
   const formatCardNumber = (str) => {
     return str.match(/.{1,4}/g).join(" ")
   }
